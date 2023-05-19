@@ -1,0 +1,25 @@
+package condicionales;
+
+public class EJ1 {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Introduzca dos números comprendidos entre 20 y 30.");
+		
+		int x=21, y=29, mayor;
+		
+		if (x>y){
+			
+			System.out.println("X es mayor que Y.");
+		}else if(y>x){
+			
+			System.out.println("Y es mayor que X.");
+		}else{
+			System.out.println("X es igual a Y.");
+		}
+		
+		System.out.println("X es "+x+".");
+		System.out.println("Y es "+y+".");
+	}
+
+}

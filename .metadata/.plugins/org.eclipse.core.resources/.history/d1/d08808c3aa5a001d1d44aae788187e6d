@@ -1,0 +1,32 @@
+package condicionales;
+
+import java.util.Scanner;
+
+public class EJ4 {
+
+	public static void main(String[] args) {
+		
+		int ejeX=0;
+		int ejeY=0;
+		
+		final int arriba=1;
+		final int abajo=2;
+		final int izquierda=3;
+		final int derecha=4;
+		
+		Scanner movimiento = new Scanner(System.in);
+		
+		while(true) {
+			
+			direccion=movimiento.nextInt();
+
+			if (arriba == (ejeX+1));
+			else if (abajo == (ejeX-1); 
+			else if (izquierda == (ejeY-1)); 
+			else (derecha == (ejeY+1));
+			
+			System.out.println("Te encuentras en "+ejeX+" del eje X y "+ejeY+" del eje Y.");
+		
+	}
+
+}

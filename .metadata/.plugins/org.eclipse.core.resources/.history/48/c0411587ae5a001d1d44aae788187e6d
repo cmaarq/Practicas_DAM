@@ -1,0 +1,27 @@
+package condicionales;
+
+import java.util.Scanner;
+
+public class EJ5 {
+
+	public static void main(String[] args) {
+		
+		double compra=5249.24;
+		double ahorros=4000.00;
+		
+		Scanner dinero = new Scanner(System.in);
+		
+		if (ahorros <0){
+			System.out.println("Está usted en números rojos.");
+		} 
+		if (ahorros<1000){
+			System.out.println("Tiene en la cuenta menos de 1000€.");	
+		} 
+		else (ahorros - gastos){
+			System.out.println("Ha gastado "+gastos+"€ y le queda en la cuenta "+ahorros+"€.");
+		}
+		
+
+	}
+
+}

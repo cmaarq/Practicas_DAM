@@ -1,0 +1,39 @@
+package condicionales;
+
+import java.util.Scanner;
+
+public class EJ3 {
+
+	public static void main(String[] args) {
+
+		final int arriba = 1;
+		final int abajo = 2;
+		final int izquierda = 3;
+		final int derecha = 4;
+
+		int direccion;
+
+		int x = 0, y = 0;
+
+		Scanner movimiento = new Scanner(System.in);
+
+		System.out.println("Para moverse pulsar las teclas:");
+		System.out.println("1:ARRIBA");
+		System.out.println("2:ABAJO");
+		System.out.println("3:IZQUIERDA");
+		System.out.println("4:DERECHA");
+
+		direccion = movimiento.nextInt();
+
+		if (direccion == abajo) {
+			System.out.println("Te has movido hacia arriba.");
+		} else if (direccion == arriba) {
+			System.out.println("Te has movido hacia abajo.");
+		} else if (direccion == derecha) {
+			System.out.println("Te has movido hacia la izquierda.");
+		} else {
+			System.out.println("Te has movido hacia la derecha.");
+		}
+		
+	}
+}
